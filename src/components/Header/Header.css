@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2% 5%;
+    align-items: center;
+}
+
+.links {
+    align-self: center;
+    display: flex;
+    width: 33%;
+    justify-content: space-between;
+}
+
+.container select {
+    border: none;
+    color: #8792A7;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #8792A7;
+}
+
+.active {
+    color: black;
+}
+
+.express {
+    align-items: center;
+}
+
+.menu-icon {
+    display: none;
+}

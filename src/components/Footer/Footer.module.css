@@ -1,0 +1,32 @@
+.container {
+  width: 100%;
+  background-color: #121212;
+  color: white;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) and (min-width:600px) {
+  .columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto;
+    padding: 0 5% 0 0;
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width:300px) {
+  .columns {
+    display: block;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+  }
+}

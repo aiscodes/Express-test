@@ -1,0 +1,265 @@
+.container {
+    width: 80%;
+    margin: 8% auto;
+    position: relative;
+}
+
+.card {
+    text-align: center;
+    padding: 5% 0;
+}
+
+.card h1 {
+    font-size: 56px;
+    font-weight: 900;
+    width: 80%;
+    margin: 0 auto;
+    letter-spacing: 0.01em;
+}
+
+.card h3 {
+    font-size: 28px;
+    color: #018FDE;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 0.01em;
+}
+
+.secondcard {
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+
+}
+
+.secondcard p {
+    width: 40%;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+    color: #3D3D3D;
+    ;
+}
+
+.niz {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.verh {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 1224px) and (min-width:1024px) {
+    .secondcard {
+        width: 60%;
+        display: flex;
+        margin: 3% auto;
+        justify-content: space-around;
+
+    }
+
+    .secondcard p {
+        width: 80%;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: left;
+        color: #3D3D3D;
+        ;
+    }
+
+    .secondcard img {
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 1024px) and (min-width:900px) {
+    .container {
+        width: 100%;
+        margin: 8% auto;
+        position: relative;
+    }
+
+    .card {
+        text-align: center;
+        padding: 8% 0;
+    }
+
+    .divider {
+        width: 80%;
+    }
+
+    .card h1 {
+        font-size: 44px;
+    }
+
+    .card h3 {
+        font-size: 24px;
+        color: #018FDE;
+        text-align: center;
+        font-weight: 900;
+        letter-spacing: 0.01em;
+    }
+
+    .niz {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .verh {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .secondcard {
+        width: 60%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-around;
+
+    }
+
+    .secondcard p {
+        width: 80%;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: left;
+        color: #3D3D3D;
+        ;
+    }
+
+    .secondcard img {
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width: 900px) and (min-width:600px) {
+    .container {
+        width: 100%;
+        margin: 8% auto;
+        position: relative;
+    }
+
+    .card {
+        text-align: center;
+        padding: 8% 0;
+    }
+
+    .divider {
+        width: 80%;
+    }
+
+    .card h1 {
+        font-size: 40px;
+    }
+
+    .card h3 {
+        font-size: 20px;
+        color: #018FDE;
+        text-align: center;
+        font-weight: 900;
+        letter-spacing: 0.01em;
+    }
+
+    .niz {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .verh {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .secondcard {
+        width: 65%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-around;
+
+    }
+
+    .secondcard p {
+        width: 90%;
+        font-size: 11px;
+        line-height: 20px;
+        text-align: left;
+        color: #3D3D3D;
+        ;
+    }
+
+    .secondcard img {
+        width: 45%;
+    }
+
+}
+
+@media screen and (max-width: 600px) and (min-width:300px) {
+    .container {
+        width: 100%;
+        margin: 8% auto;
+        position: relative;
+    }
+
+    .card {
+        text-align: center;
+        padding: 8% 0;
+    }
+
+    .divider {
+        width: 100%;
+    }
+
+    .card h1 {
+        font-size: 25px;
+        letter-spacing: 0.05em;
+    }
+
+    .card h3 {
+        font-size: 16px;
+        color: #018FDE;
+        text-align: center;
+        font-weight: 600;
+        letter-spacing: 0.01em;
+    }
+
+    .niz {
+        display: none;
+    }
+
+    .verh {
+        display: none;
+    }
+
+    .secondcard {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        justify-content: space-around;
+
+    }
+
+    .secondcard p {
+        width: 100%;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+        color: #3D3D3D;
+        ;
+    }
+
+    .secondcard img {
+        width: 85%;
+    }
+
+}

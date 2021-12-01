@@ -1,0 +1,80 @@
+.phoneInputContainer {
+    height: 55px;
+    background-color: #EEF3FC !important;
+    border: none !important;
+}
+
+.phoneInput {
+    width: 100% !important;
+    height: 55px !important;
+    margin: 0;
+    background-color: #EEF3FC !important;
+    border: none !important;
+    color: #8792A7;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.buttonInputs {
+    border: none !important;
+    background-color: #EEF3FC !important;
+}
+
+.buttonInputs :focus {
+    border: none !important;
+    background-color: #EEF3FC !important;
+}
+
+.buttonInputs .open {
+    border: none !important;
+    background-color: #EEF3FC !important;
+}
+
+.buttonInputs :hover {
+    border: none !important;
+    background-color: #EEF3FC !important;
+}
+
+.Mui-focused .MuiInputBase-input {
+    background-color: white !important;
+    font-family: 'Montserrat', sans-serif !important;
+    border: none !important;
+}
+
+.inputs {
+    width: 100%;
+    height: 55px;
+    background-color: #EEF3FC;
+    border: none !important;
+}
+
+.css-1dgbch7-MuiInputBase-root-MuiOutlinedInput-root {
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+.css-1o2uax5-MuiFormLabel-root-MuiInputLabel-root {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 14px !important;
+    color: #8792A7 !important;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+    border: none !important;
+}
+
+#mui-theme-provider-outlined-input:hover {
+    border: none !important;
+}
+
+.MuiOutlinedInput-inputMultiline:hover {
+    border: none !important;
+}
+
+@media screen and (max-width: 600px) and (min-width:300px) {
+    .inputs {
+        margin: 5% 0 !important;
+    }
+
+    .phoneInputContainer {
+        margin: 2.5% 0;
+    }
+}
