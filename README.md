@@ -11,7 +11,7 @@ In the project directory, you can run:
 
 **Note: Here is adaptive layout**
 
-## I've used Material UI and tried do my best 
+## I've used Material UI, React, Module styles and tried do my best 
 
 
 ### To stop the project Press CTRL+C
