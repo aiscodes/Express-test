@@ -1,15 +1,20 @@
+.header{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
 .container {
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    padding: 2% 5%;
+    max-width: 90%;
+    padding: 2% 0; 
     align-items: center;
 }
 
 .links {
     align-self: center;
     display: flex;
-    width: 33%;
+    width: 40%;
     justify-content: space-between;
 }
 
@@ -27,8 +32,8 @@ a {
     color: #8792A7;
 }
 
-.active {
-    color: black;
+.nav-links.active{
+    color: black !important;
 }
 
 .express {

@@ -41,7 +41,7 @@ export default function Burger(props) {
             <img src={call} alt='img' className='call-burger' />
             <div className="menu-icon-burger" onClick={props.handleClick}>
                 <img src={menuclose} alt='img' />
-                <p>Menu</p>
+                <p className='menup'>Menu</p>
             </div>
 
 

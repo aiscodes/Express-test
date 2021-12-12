@@ -5,7 +5,7 @@ import style from '../Blocks.module.css'
 export default function Block1() {
     return (
         <div className={style.first_block}>
-            <h4>Express</h4>
+            <h1>Express</h1>
             <p>All Rights Reserved to info.com</p>
             <p>© DDD – Web Marketing</p>
             <p>Privacy Policy</p>

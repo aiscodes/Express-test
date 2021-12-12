@@ -4,11 +4,10 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Services from './Pages/Services';
 import Contacts from './Pages/Contacts';
-import Header from './components/Header';
 import Footer from './components/Footer';
+import Header from './components/Header';
 
-
-function App() {
+const App = () => {
   return (
     <div className='wallpaper'>
       <Header />

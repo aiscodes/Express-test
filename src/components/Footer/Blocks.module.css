@@ -32,100 +32,62 @@
 }
 
 .block2 h5, .block3 h5, .block4 h5 {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
     line-height: 20px;
-    padding-top: 3%;
+    padding: 3% 0 10%;
 }
 
-.first_block h4 {
-    font-size: 35px;
+.block2 p, .block3 p, .block4 p {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.first_block h1 {
+    font-size: 40px;
     font-weight: 900;
     color: #018FDE;
-    line-height: 10px;
+    line-height: 30px;
+    padding-bottom: 8%;
 }
 
 .first_block p {
-    padding: 5% 0 0 0;
+    font-size: 18px;
+    font-weight: 100;
 }
 
 .block3_address {
     margin-top: 10%;
 }
 
-
-@media screen and (max-width: 1024px) and (min-width:900px) {
-    .block2 {
-        width: 30%;
-        margin: 3% 0;
-    }
-
-    .block3 {
-        display: flex;
-        justify-content: space-between;
-        width: 70%;
-        margin: 3% 0;
-    }
-
-    .block4 {
-        width: 20%;
-        margin: 3% 0;
-    }
-
-    .first_block {
-        width: 40%;
-        margin: 3% 0;
-    }
-
-    .card {
-        display: block;
-    }
-
-    .card_p {
-        font-size: 14px;
-        width: 85%;
-        justify-self: flex-start;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .block2 h5, .block3 h5, .block4 h5 {
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 20px;
-        padding-top: 0% !important;
-    }
-
-    .first_block h4 {
-        font-size: 35px;
-        font-weight: 900;
-        color: #018FDE;
-        line-height: 10px;
-    }
-}
-
-@media screen and (max-width: 900px) and (min-width:600px) {
+@media (max-width: 1024px) and (min-width:600px) {
     .block2 {
         width: 45%;
-        margin: 6% 0;
 
     }
 
     .block3 {
         display: flex;
         justify-content: space-between;
-        width: 75%;
-        margin: 4% 0;
+        width: 65%;
+
+    }
+
+    .block3_div {
+        width: 50%;
     }
 
     .block4 {
         width: 20%;
-        margin: 4% 0;
     }
 
     .first_block {
         width: 40%;
-        margin: 4% 0;
+    }
+
+    .first_block p {
+        padding: 5% 0 0 0;
+        font-size: 16px;
     }
 
     .card {
@@ -140,28 +102,28 @@
     }
 
     .block2 h5, .block3 h5, .block4 h5 {
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 600;
         line-height: 20px;
-        padding-top: 0% !important;
     }
 
-    .first_block h4 {
-        font-size: 30px;
-        font-weight: 900;
+    .first_block h1 {
+        font-size: 35px;
+        font-weight: 800;
         color: #018FDE;
-        line-height: 10px;
+        line-height: 30px;
     }
 
     .block2 p, .block3 p, .block4 p {
         padding: 5% 0 0 0;
         margin: 0;
+        font-size: 16px;
     }
 }
 
 @media screen and (max-width: 600px) and (min-width:300px) {
     .block2 {
-        width: 80%;
+        width: 75%;
         margin: 4% 0 0 0;
     }
 
@@ -189,7 +151,7 @@
 
     .first_block p {
         padding: 5% 0 0 0;
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .card {
@@ -204,23 +166,20 @@
     }
 
     .block2 h5, .block3 h5, .block4 h5 {
-        font-size: 15px;
+        font-size: 20px;
         font-weight: 600;
-        line-height: 20px;
-        padding-top: 3%;
+        line-height: 10px;
+        padding-top: 10%;
     }
 
-    .first_block h4 {
-        font-size: 35px;
+    .first_block h1 {
+        font-size: 40px;
         font-weight: 900;
         color: #018FDE;
-        line-height: 10px;
-        padding-top: 20%;
+        padding-top: 10%;
     }
 
     .block2 p, .block3 p, .block4 p {
-        padding: 5% 0 0 0;
-        margin: 0;
-        font-size: 12px;
+        font-size: 16px;
     }
 }

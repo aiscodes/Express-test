@@ -11,12 +11,13 @@ export default function Header() {
         setOpen(!open)
     }
     return (
-        <div>{
-            open ?
-                <Burger open={open} handleClick={handleClick} />
-                :
-                <NavBar open={open} handleClick={handleClick} />
-        }
+        <div className='header'>
+            {
+                open ?
+                    <Burger open={open} handleClick={handleClick} />
+                    :
+                    <NavBar open={open} handleClick={handleClick} />
+            }
         </div>
 
     )

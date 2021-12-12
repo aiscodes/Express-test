@@ -29,7 +29,7 @@ export default function NavBar(props) {
                     alt='img' className='header-call' />
                 <div className="menu-icon" onClick={props.handleClick}>
                     <img src={menu} alt='img' />
-                    <p>Menu</p>
+                    <p className='menup'>Menu</p>
                 </div>
             </div>
 
